@@ -11,13 +11,13 @@ __mtime__ = '2018-12-25'
 import re
 import urllib
 import pymongo
+from config import *
+from pyquery import PyQuery as pq
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pyquery import PyQuery as pq
-from config import *
 from selenium.webdriver.chrome.options import Options
 
 # 连接MongoDB
