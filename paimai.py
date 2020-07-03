@@ -105,7 +105,6 @@ def save_to_mongo(result):
 
 def main():
     try:
-        total = search()
         total = int(re.compile('(\d+)').search(total).group(1))
         search()
         for i in range(1, total + 1):
